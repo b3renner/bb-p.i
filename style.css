@@ -298,3 +298,125 @@ footer {
 #qmsomos {
     padding-left: 10%;
 }
+
+@media (max-width: 1024px) {
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .missao-item {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .sobre-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre-item {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    header .logo img {
+        height: 40px;
+    }
+
+    nav ul {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    #titulo h1, #titulo h2 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    #acoes {
+        padding-top: 50px;
+    }
+
+    .carousel {
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .slider-frame {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-container {
+        height: auto;
+    }
+
+    .img-container h4, .img-container h2, .img-container p {
+        top: 5vh;
+        left: 5vh;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #titulo h1, #titulo h2 {
+        font-size: 1.2em;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #missao p {
+        padding: 10px;
+    }
+
+    .sobre-item {
+        text-align: center;
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+}
